@@ -1,0 +1,18 @@
+.card {
+  width: 70.125em;
+  min-height: 37.5em;
+  background-color: white;
+  box-shadow: 0 0 11px 3px rgb(0 0 0 / 15%);
+  border-radius: 1em;
+  transition: all 0.3s;
+  display: flex;
+  .fg {
+    width: 1px;
+    height: inherit;
+    background-color: #e5e5e5;
+    margin: 1em 0;
+  }
+  &:hover {
+    transform: scale(1.01);
+  }
+}
