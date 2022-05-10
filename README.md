@@ -1,16 +1,14 @@
-# Vite Vue3 TSX Template
+## suemor的导航页
 
-This template provide toolchain below:
+使用了以下技术
 
-- Vite
 - Vue3
+- Vite
 - TSX
 - ESLint
 - Prettier
 - Sass
-- VueX
-- Router
-- Axios
+- Pinia
 
 # Usage
 
