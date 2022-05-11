@@ -15,7 +15,7 @@ export default defineComponent({
 
         blogData.title = res.data.title
         blogData.content = marked((res.data.text).substring(1,200) + '....')
-        blogData.url = `https://www.suemor.com/posts/${res.data.category.slug}/${res.data.title}`
+        blogData.url = `https://www.suemor.com/posts/${res.data.category.slug}/${res.data.slug}`
       })
     })
 
