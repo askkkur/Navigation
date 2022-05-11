@@ -1,4 +1,4 @@
-## suemor的导航页（目前正在开发中）
+## suemor的导航页
 
 使用了以下技术
 
@@ -8,7 +8,6 @@
 - ESLint
 - Prettier
 - Sass
-- Pinia
 
 # Usage
 
@@ -17,3 +16,8 @@ pnpm i
 pnpm dev
 ```
 
+# 截图
+
+<p align="middle">
+<img src="https://github.com/suemor233/Navigation/blob/master/images/image1.jpg" width="1000" alt="界面" />
+</p>
