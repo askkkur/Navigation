@@ -1,6 +1,7 @@
 import {computed, defineComponent, onMounted, reactive, ref} from 'vue'
 import './index.modules.scss'
 import axios from "axios";
+// @ts-ignore
 import { marked } from 'marked'
 export default defineComponent({
   setup(props, ctx) {
