@@ -19,5 +19,5 @@ pnpm dev
 # 截图
 
 <p align="middle">
-<img src="https://github.com/suemor233/Navigation/blob/master/images/image1.jpg" width="1000" alt="界面" />
+<img src="https://github.com/suemor233/Navigation/blob/master/images/image2.jpg" width="1000" alt="界面" />
 </p>
