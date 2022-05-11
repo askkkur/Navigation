@@ -17,8 +17,6 @@ export default defineComponent({
         blogData.url = `https://www.suemor.com/posts/${res.data.category.slug}/${res.data.slug}`
       })
     })
-
-
     return () => (
       <>
         <div class={'card-right'}>

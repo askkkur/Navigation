@@ -15,7 +15,7 @@ export default defineComponent({
               />
             </div>
             <p class={'card-name'}>suemor</p>
-            <p class={'card-introduce'}>一个热爱前端的萌新</p>
+            <p class={'card-introduce'}>一个废材技校生</p>
             <div class={'card-icon'}>
               <a target={'view-windows'} href={'https://twitter.com/Suemor233'}>
                 <Icon name={'icon-twitter'} />
