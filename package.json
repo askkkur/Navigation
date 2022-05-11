@@ -10,9 +10,12 @@
     "lint:fix": "eslint src --fix --ext .ts,.tsx"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "axios": "^0.26.1",
+    "marked": "^4.0.15",
     "reset-css": "^5.0.1",
     "vue": "^3.2.25",
+    "vue-markdown": "^2.2.4",
     "vue-router": "4.0.14",
     "vuex": "4.0.2"
   },

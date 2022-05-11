@@ -1,22 +1,29 @@
-import {defineComponent, onMounted, ref} from 'vue'
+import {computed, defineComponent, onMounted, reactive, ref} from 'vue'
 import './index.modules.scss'
 import axios from "axios";
+import { marked } from 'marked'
 export default defineComponent({
-  name: 'index',
   setup(props, ctx) {
-
-    const content = ref()
+    const blogData = reactive({
+      title:'',
+      content:'',
+      url:''
+    })
     onMounted(()=>{
       axios.get('http://121.4.129.51:2333/api/v2/posts/latest').then(res =>{
-        console.log(res.data.text)
-        content.value = res.data.text.substring(0,300)
+        blogData.title = res.data.title
+        blogData.content = marked((res.data.text).substring(1,200) + '....')
+        blogData.url = `https://www.suemor.com/${res.data.category.slug}/${res.data.category.id}`
       })
     })
+
+
     return () => (
       <>
         <div class={'card-right'}>
-          <p class={'card-about'}>最新文章</p>
-            <div class={'card-content'}>{content.value}</div>
+          <p class={'card-about'}>{blogData.title}</p>
+            <div class={'card-content'} v-html={blogData.content}/>
+          <a target={'view-windows'}  class={'card-more'} href={blogData.url}>查看更多</a>
         </div>
       </>
     )

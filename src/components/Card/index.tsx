@@ -6,7 +6,7 @@ export default defineComponent({
     setup(props, ctx) {
         return () => (
             <>
-                    <div class={'card'}>
+                    <div class={'card animate__animated animate__fadeIn'}>
                         <Left/>
                          <div class={'fg'}/>
                         <Right/>
