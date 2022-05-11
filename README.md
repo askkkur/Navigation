@@ -9,12 +9,15 @@
 - Prettier
 - Sass
 
-# Usage
+# 使用
 
 ```sh
 pnpm i
 pnpm dev
 ```
+
+# 注意⚠️
+域名目前还未完成备案，可能无法访问
 
 # 截图
 
