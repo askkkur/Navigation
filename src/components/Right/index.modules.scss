@@ -34,6 +34,10 @@
     margin-right: 2em;
     margin-top: 1.5em;
     transition: all 0.3s;
+    @media (max-width: 750px) {
+      margin-bottom: 1em;
+
+    }
     &:hover {
       color: #3982F7;
       transform: scale(1.1);

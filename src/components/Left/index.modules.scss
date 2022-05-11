@@ -68,7 +68,10 @@
       left: 0;
       display: flex;
       justify-content: space-around;
-
+      margin-bottom: 1em;
+      @media (max-width: 750px) {
+        margin-bottom: 0;
+      }
       a {
         height: 50px;
         color: gray;
