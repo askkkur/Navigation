@@ -1,5 +1,7 @@
 .card {
-
+  @media (max-width: 750px) {
+      flex-direction: column;
+  }
   width: 70.125em;
   min-height: 37.5em;
   background-color: white;
