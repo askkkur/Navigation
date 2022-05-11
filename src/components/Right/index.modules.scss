@@ -1,13 +1,11 @@
-@media (max-width: 750px) {
-  .card-right {
-    display: none;
-  }
-}
-
 .card-right {
+  @media (max-width: 750px) {
+      display: none;
+  }
   flex: 7;
   box-sizing: content-box;
   padding: 1.5em;
+
   .card-about {
     padding: 0;
     font-size: 1.5em;
@@ -17,6 +15,9 @@
   }
 
   .card-content {
+    @media (max-width: 900px) {
+      line-height: 2.5em;
+    }
     letter-spacing: .3px;
     color: #34495e;
     line-height: 3em;

@@ -60,14 +60,12 @@
       display: flex;
       justify-content: space-around;
       a {
-        display: inline-block;
-        float: left;
         height: 50px;
         margin-top: 13px;
-        line-height: 50px;
         color: gray;
         transition: all 0.3s;
         text-align: center;
+        display: flex;
         &:hover {
           color: rgb(0, 132, 255);
           font-size: 1.2rem;
