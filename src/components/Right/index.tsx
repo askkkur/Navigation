@@ -12,7 +12,6 @@ export default defineComponent({
     })
     onMounted(()=>{
       axios.get('https://server.suemor.com/api/v2/posts/latest').then(res =>{
-
         blogData.title = res.data.title
         blogData.content = marked((res.data.text).substring(1,200) + '....')
         blogData.url = `https://www.suemor.com/posts/${res.data.category.slug}/${res.data.slug}`

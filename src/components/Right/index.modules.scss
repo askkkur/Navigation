@@ -3,6 +3,9 @@
   flex: 7;
   box-sizing: content-box;
   padding: 1.5em;
+  @media (max-width: 750px) {
+    padding: 0 1.5em;
+  }
 
   .card-about {
     padding: 0;
